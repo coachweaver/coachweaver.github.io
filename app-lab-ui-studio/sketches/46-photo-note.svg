@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" style="display:block;width:100vw;height:100vh" role="img" aria-labelledby="title desc">
+<title id="title">Photo Note: Main screen build map</title>
+<desc id="desc">Two identical 320 by 450 App Lab screen previews. Left is clean. Right shows input and output arrows and element IDs. The far right lists types and starting properties.</desc>
+<defs><marker id="inputArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#245c83"/></marker><marker id="outputArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#765493"/></marker></defs>
+<rect x="0" y="0" width="1920" height="1080" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="50" y="77" font-family="Georgia,serif" font-size="45" font-weight="700" fill="#243140">Photo Note</text>
+<text x="50" y="112" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" fill="#596777">Main screen  |  screen 1 of 1  |  App Lab UI enlarged 1.5×</text>
+<line x1="50" y1="132" x2="1870" y2="132" stroke="#d1d9e1" stroke-width="2"/>
+<text x="50" y="185" font-family="Georgia,serif" font-size="27" font-weight="700" fill="#243140">Example screen</text>
+<text x="580" y="185" font-family="Georgia,serif" font-size="27" font-weight="700" fill="#243140">Input and output</text>
+<text x="1380" y="185" font-family="Georgia,serif" font-size="27" font-weight="700" fill="#243140">Design Mode setup</text>
+<rect x="50" y="215" width="480" height="675" fill="#f9fbfc" stroke="#9eafbf" stroke-width="2"/><text x="82" y="290.0" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#203755">Photo note</text><rect x="80" y="321" width="420" height="136" rx="10" fill="#e9f2f7" stroke="#bfd1dc" stroke-width="1"/><circle cx="158" cy="357" r="15" fill="#f3d68f"/><path d="M95 427 l84 -54 l52 37 l53 -43 l210 60" fill="none" stroke="#85adbd" stroke-width="6"/><text x="290.0" y="447" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="500" fill="#415f6b" text-anchor="middle">Choose a photo</text><rect x="400" y="333" width="86" height="31" rx="6" fill="#ffffff" stroke="#bfd1dc" stroke-width="1"/><text x="443" y="354" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#245c83" text-anchor="middle">SELECT</text><rect x="80" y="468" width="420" height="64" rx="9" fill="#ffffff" stroke="#aebfce" stroke-width="1.7"/><text x="97" y="507.0" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" fill="#667585">Short caption</text><rect x="80" y="543" width="420" height="64" rx="11" fill="#315f9d" stroke="#264d83" stroke-width="1"/><text x="290.0" y="582.0" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">Add caption</text><rect x="80" y="618" width="420" height="56" rx="10" fill="#eff3f8" stroke="#d7e0e9" stroke-width="1"/><text x="97" y="653.0" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="500" fill="#253449">Caption appears</text>
+<rect x="580" y="215" width="480" height="675" fill="#f9fbfc" stroke="#9eafbf" stroke-width="2"/><text x="612" y="290.0" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#203755">Photo note</text><rect x="610" y="321" width="420" height="136" rx="10" fill="#e9f2f7" stroke="#bfd1dc" stroke-width="1"/><circle cx="688" cy="357" r="15" fill="#f3d68f"/><path d="M625 427 l84 -54 l52 37 l53 -43 l210 60" fill="none" stroke="#85adbd" stroke-width="6"/><text x="820.0" y="447" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="500" fill="#415f6b" text-anchor="middle">Choose a photo</text><rect x="930" y="333" width="86" height="31" rx="6" fill="#ffffff" stroke="#bfd1dc" stroke-width="1"/><text x="973" y="354" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#245c83" text-anchor="middle">SELECT</text><rect x="610" y="468" width="420" height="64" rx="9" fill="#ffffff" stroke="#aebfce" stroke-width="1.7"/><text x="627" y="507.0" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" fill="#667585">Short caption</text><rect x="610" y="543" width="420" height="64" rx="11" fill="#315f9d" stroke="#264d83" stroke-width="1"/><text x="820.0" y="582.0" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">Add caption</text><rect x="610" y="618" width="420" height="56" rx="10" fill="#eff3f8" stroke="#d7e0e9" stroke-width="1"/><text x="627" y="653.0" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="500" fill="#253449">Caption appears</text>
+<line x1="1071" y1="282.0" x2="1123" y2="282.0" stroke="#765493" stroke-width="3" marker-end="url(#outputArrow)"/>
+<text x="1140" y="277.0" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#765493">Output  text</text>
+<text x="1140" y="305.0" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" fill="#243140">labelTitle</text>
+<line x1="1123" y1="389.0" x2="1071" y2="389.0" stroke="#245c83" stroke-width="3" marker-end="url(#inputArrow)"/>
+<text x="1140" y="384.0" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#245c83">Input  photo</text>
+<text x="1140" y="412.0" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" fill="#243140">photoSelectPhoto</text>
+<line x1="1123" y1="500.0" x2="1071" y2="500.0" stroke="#245c83" stroke-width="3" marker-end="url(#inputArrow)"/>
+<text x="1140" y="495.0" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#245c83">Input  typed text</text>
+<text x="1140" y="523.0" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" fill="#243140">textInputCaption</text>
+<line x1="1123" y1="575.0" x2="1071" y2="575.0" stroke="#245c83" stroke-width="3" marker-end="url(#inputArrow)"/>
+<text x="1140" y="570.0" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#245c83">Input  tap</text>
+<text x="1140" y="598.0" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" fill="#243140">buttonCaption</text>
+<line x1="1071" y1="646.0" x2="1123" y2="646.0" stroke="#765493" stroke-width="3" marker-end="url(#outputArrow)"/>
+<text x="1140" y="641.0" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#765493">Output  text</text>
+<text x="1140" y="669.0" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" fill="#243140">labelCaption</text>
+<rect x="1380" y="235" width="13" height="13" fill="#e7eafa" stroke="#596777" stroke-width="0.7"/>
+<text x="1405" y="247" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#596777">Screen</text>
+<text x="1405" y="274" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#243140">screenMain</text>
+<text x="1405" y="290" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#596777">background: soft white; 320 × 450</text>
+<line x1="1380" y1="298" x2="1870" y2="298" stroke="#e2e7ed" stroke-width="1"/>
+<rect x="1380" y="318" width="13" height="13" fill="#eee9ff" stroke="#596777" stroke-width="0.7"/>
+<text x="1405" y="330" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#596777">Label</text>
+<text x="1405" y="357" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#243140">labelTitle</text>
+<text x="1405" y="373" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#596777">text: Photo note</text>
+<line x1="1380" y1="381" x2="1870" y2="381" stroke="#e2e7ed" stroke-width="1"/>
+<rect x="1380" y="401" width="13" height="13" fill="#f2eaf5" stroke="#596777" stroke-width="0.7"/>
+<text x="1405" y="413" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#596777">Photo Select</text>
+<text x="1405" y="440" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#243140">photoSelectPhoto</text>
+<text x="1405" y="456" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#596777">choose a nonpersonal classroom sample</text>
+<line x1="1380" y1="464" x2="1870" y2="464" stroke="#e2e7ed" stroke-width="1"/>
+<rect x="1380" y="484" width="13" height="13" fill="#e3f4ec" stroke="#596777" stroke-width="0.7"/>
+<text x="1405" y="496" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#596777">Text Input</text>
+<text x="1405" y="523" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#243140">textInputCaption</text>
+<text x="1405" y="539" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#596777">placeholder: Short caption</text>
+<line x1="1380" y1="547" x2="1870" y2="547" stroke="#e2e7ed" stroke-width="1"/>
+<rect x="1380" y="567" width="13" height="13" fill="#e1edff" stroke="#596777" stroke-width="0.7"/>
+<text x="1405" y="579" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#596777">Button</text>
+<text x="1405" y="606" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#243140">buttonCaption</text>
+<text x="1405" y="622" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#596777">text: Add caption</text>
+<line x1="1380" y1="630" x2="1870" y2="630" stroke="#e2e7ed" stroke-width="1"/>
+<rect x="1380" y="650" width="13" height="13" fill="#eee9ff" stroke="#596777" stroke-width="0.7"/>
+<text x="1405" y="662" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#596777">Label</text>
+<text x="1405" y="689" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#243140">labelCaption</text>
+<text x="1405" y="705" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#596777">text: Caption appears</text>
+<line x1="1380" y1="713" x2="1870" y2="713" stroke="#e2e7ed" stroke-width="1"/>
+<line x1="50" y1="925" x2="1870" y2="925" stroke="#d1d9e1" stroke-width="2"/>
+<text x="50" y="958" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#596777">Element types</text>
+<text x="50" y="987" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" fill="#243140">Label, Photo Select, Text Input, Button</text>
+<text x="580" y="958" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#596777">Arrows show data flow</text>
+<text x="580" y="987" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" fill="#243140">Into the app = input     Out of the app = output</text>
+<text x="1380" y="958" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#596777">Blocks to find</text>
+<text x="1380" y="987" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" fill="#243140">getText, onEvent, setText, getImageURL (demo)</text>
+</svg>

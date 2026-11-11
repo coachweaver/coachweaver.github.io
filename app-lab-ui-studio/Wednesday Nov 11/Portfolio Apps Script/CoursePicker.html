@@ -1,0 +1,24 @@
+<!doctype html><html><head><meta charset="utf-8"><base target="_top"><style>
+body{font:15px/1.45 Arial,sans-serif;color:#26323f;margin:24px}h1{font:700 25px Georgia,serif;margin:0 0 8px}p{color:#5b6876;margin:0 0 18px}
+label{display:block;padding:13px 0;border-bottom:1px solid #d9e1e8}input{margin-right:10px}small{color:#657483}button{margin-top:20px;background:#254f7e;color:#fff;border:0;padding:11px 17px;font-weight:700;cursor:pointer}
+#status{margin-top:14px;min-height:22px}
+</style></head><body>
+<h1>Choose your classes</h1><p>Only selected active Classroom rosters receive portfolios. You can refresh the roster later.</p>
+<div id="courses">Loading classes…</div><button id="save" type="button">Create portfolio slots</button><div id="status" role="status"></div>
+<script>
+const courses=document.getElementById('courses'),status=document.getElementById('status'),save=document.getElementById('save');
+google.script.run.withSuccessHandler(list=>{
+  courses.textContent='';
+  if(!list.length){courses.textContent='No active classes found for this teacher account.';save.disabled=true;return;}
+  list.forEach(c=>{const label=document.createElement('label'),input=document.createElement('input');
+    input.type='checkbox';input.value=c.id;input.checked=c.selected;
+    label.append(input,document.createTextNode(c.name+(c.section?' — '+c.section:'')));
+    courses.append(label);});
+}).withFailureHandler(e=>courses.textContent=e.message).listClassroomCourses();
+save.addEventListener('click',()=>{const ids=[...courses.querySelectorAll('input:checked')].map(i=>i.value);
+  if(!ids.length){status.textContent='Choose at least one class.';return;}
+  save.disabled=true;status.textContent='Creating portfolio slots…';
+  google.script.run.withSuccessHandler(r=>{status.textContent=`Ready: ${r.students} students, ${r.newAppSlots} new slots.`;save.disabled=false;})
+    .withFailureHandler(e=>{status.textContent=e.message;save.disabled=false;}).provisionSelectedClasses(ids);
+});
+</script></body></html>

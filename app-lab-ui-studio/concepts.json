@@ -1,0 +1,4899 @@
+[
+  {
+    "number": 1,
+    "group": 1,
+    "anchor": true,
+    "title": "Button Beacon",
+    "purpose": "A one-tap status message for a busy room",
+    "elements": [
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Help desk"
+      ],
+      [
+        "button",
+        "Tap for help"
+      ],
+      [
+        "label",
+        "Help is on the way"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Help desk",
+            "id": "labelTitle",
+            "note": "text: Help desk",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Tap for help",
+            "id": "buttonAction",
+            "note": "text: Tap for help",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Help is on the way",
+            "id": "labelMessage",
+            "note": "text at start: Ready when you are",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/01-button-beacon.svg"
+    ],
+    "sketch": "sketches/01-button-beacon.svg"
+  },
+  {
+    "number": 2,
+    "group": 1,
+    "anchor": false,
+    "title": "One-Tap Compliment",
+    "purpose": "A button offers a kind message",
+    "elements": [
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Kind note"
+      ],
+      [
+        "button",
+        "Encourage me"
+      ],
+      [
+        "label",
+        "You kept trying!"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Kind note",
+            "id": "labelTitle",
+            "note": "text: Kind note",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Encourage me",
+            "id": "buttonEncourageMe",
+            "note": "text: Encourage me",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "You kept trying!",
+            "id": "labelYouKeptTrying",
+            "note": "text: You kept trying!",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/02-one-tap-compliment.svg"
+    ],
+    "sketch": "sketches/02-one-tap-compliment.svg"
+  },
+  {
+    "number": 3,
+    "group": 1,
+    "anchor": false,
+    "title": "Hydration Nudge",
+    "purpose": "A discreet water reminder",
+    "elements": [
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Water break"
+      ],
+      [
+        "button",
+        "Remind me"
+      ],
+      [
+        "label",
+        "Take a sip"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Water break",
+            "id": "labelTitle",
+            "note": "text: Water break",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Remind me",
+            "id": "buttonRemindMe",
+            "note": "text: Remind me",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Take a sip",
+            "id": "labelTakeASip",
+            "note": "text: Take a sip",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/03-hydration-nudge.svg"
+    ],
+    "sketch": "sketches/03-hydration-nudge.svg"
+  },
+  {
+    "number": 4,
+    "group": 2,
+    "anchor": true,
+    "title": "Resettable Status",
+    "purpose": "Start and reset a visible status",
+    "elements": [
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Room status"
+      ],
+      [
+        "button",
+        "Start"
+      ],
+      [
+        "button",
+        "Reset"
+      ],
+      [
+        "label",
+        "Not started"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Room status",
+            "id": "labelTitle",
+            "note": "text: Room status",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Start",
+            "id": "buttonStart",
+            "note": "text: Start",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Reset",
+            "id": "buttonReset",
+            "note": "text: Reset",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Not started",
+            "id": "labelStatus",
+            "note": "text: Not started",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/04-resettable-status.svg"
+    ],
+    "sketch": "sketches/04-resettable-status.svg"
+  },
+  {
+    "number": 5,
+    "group": 2,
+    "anchor": false,
+    "title": "Borrowed Item Tracker",
+    "purpose": "Mark an item out or returned",
+    "elements": [
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Classroom charger"
+      ],
+      [
+        "button",
+        "Check out"
+      ],
+      [
+        "button",
+        "Return"
+      ],
+      [
+        "label",
+        "Available"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Classroom charger",
+            "id": "labelTitle",
+            "note": "text: Classroom charger",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Check out",
+            "id": "buttonCheckOut",
+            "note": "text: Check out",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Return",
+            "id": "buttonReturn",
+            "note": "text: Return",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Available",
+            "id": "labelAvailable",
+            "note": "text: Available",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/05-borrowed-item-tracker.svg"
+    ],
+    "sketch": "sketches/05-borrowed-item-tracker.svg"
+  },
+  {
+    "number": 6,
+    "group": 2,
+    "anchor": false,
+    "title": "Classroom Signal",
+    "purpose": "Quietly show ready or need help",
+    "elements": [
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Work signal"
+      ],
+      [
+        "button",
+        "Ready"
+      ],
+      [
+        "button",
+        "Need help"
+      ],
+      [
+        "label",
+        "Choose a signal"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Work signal",
+            "id": "labelTitle",
+            "note": "text: Work signal",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Ready",
+            "id": "buttonReady",
+            "note": "text: Ready",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Need help",
+            "id": "buttonNeedHelp",
+            "note": "text: Need help",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Choose a signal",
+            "id": "labelChooseASignal",
+            "note": "text: Choose a signal",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/06-classroom-signal.svg"
+    ],
+    "sketch": "sketches/06-classroom-signal.svg"
+  },
+  {
+    "number": 7,
+    "group": 3,
+    "anchor": true,
+    "title": "Name Badge",
+    "purpose": "Turn a typed name into a display badge",
+    "elements": [
+      "Text Input",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getText",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Name badge maker"
+      ],
+      [
+        "input",
+        "Type your name"
+      ],
+      [
+        "button",
+        "Make badge"
+      ],
+      [
+        "label",
+        "Sam"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Name badge maker",
+            "id": "labelTitle",
+            "note": "text: Name badge maker",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "input",
+            "type": "Text Input",
+            "label": "Type your name",
+            "id": "textInputName",
+            "note": "placeholder: Type your name",
+            "io": "INPUT",
+            "ioType": "typed text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Make badge",
+            "id": "buttonMake",
+            "note": "text: Make badge",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Sam",
+            "id": "labelBadge",
+            "note": "text at start: Your badge appears here",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/07-name-badge.svg"
+    ],
+    "sketch": "sketches/07-name-badge.svg"
+  },
+  {
+    "number": 8,
+    "group": 3,
+    "anchor": false,
+    "title": "Meeting Greeting",
+    "purpose": "Welcome a visitor by name",
+    "elements": [
+      "Text Input",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getText",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Welcome desk"
+      ],
+      [
+        "input",
+        "Visitor name"
+      ],
+      [
+        "button",
+        "Greet"
+      ],
+      [
+        "label",
+        "Welcome, Ada"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Welcome desk",
+            "id": "labelTitle",
+            "note": "text: Welcome desk",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "input",
+            "type": "Text Input",
+            "label": "Visitor name",
+            "id": "textInputVisitorName",
+            "note": "placeholder: Visitor name",
+            "io": "INPUT",
+            "ioType": "typed text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Greet",
+            "id": "buttonGreet",
+            "note": "text: Greet",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Welcome, Ada",
+            "id": "labelWelcomeAda",
+            "note": "text: Welcome, Ada",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/08-meeting-greeting.svg"
+    ],
+    "sketch": "sketches/08-meeting-greeting.svg"
+  },
+  {
+    "number": 9,
+    "group": 3,
+    "anchor": false,
+    "title": "Locker Label",
+    "purpose": "Preview a clear label",
+    "elements": [
+      "Text Input",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getText",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Locker label"
+      ],
+      [
+        "input",
+        "Short name"
+      ],
+      [
+        "button",
+        "Preview"
+      ],
+      [
+        "label",
+        "Locker: Alex"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Locker label",
+            "id": "labelTitle",
+            "note": "text: Locker label",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "input",
+            "type": "Text Input",
+            "label": "Short name",
+            "id": "textInputShortName",
+            "note": "placeholder: Short name",
+            "io": "INPUT",
+            "ioType": "typed text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Preview",
+            "id": "buttonPreview",
+            "note": "text: Preview",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Locker: Alex",
+            "id": "labelLockerAlex",
+            "note": "text: Locker: Alex",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/09-locker-label.svg"
+    ],
+    "sketch": "sketches/09-locker-label.svg"
+  },
+  {
+    "number": 10,
+    "group": 4,
+    "anchor": true,
+    "title": "Color Check",
+    "purpose": "Switch a screen between two visual moods",
+    "elements": [
+      "Screen",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "onEvent",
+      "setProperty",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Room light setting"
+      ],
+      [
+        "button",
+        "Calm"
+      ],
+      [
+        "button",
+        "Bright"
+      ],
+      [
+        "label",
+        "Calm mode"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Room light setting",
+            "id": "labelTitle",
+            "note": "text: Room light setting",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Calm",
+            "id": "buttonCalm",
+            "note": "text: Calm",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Bright",
+            "id": "buttonBright",
+            "note": "text: Bright",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Calm mode",
+            "id": "labelColor",
+            "note": "text: Calm mode",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/10-color-check.svg"
+    ],
+    "sketch": "sketches/10-color-check.svg"
+  },
+  {
+    "number": 11,
+    "group": 4,
+    "anchor": false,
+    "title": "Weather Theme",
+    "purpose": "Make a weather card easier to read",
+    "elements": [
+      "Screen",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "onEvent",
+      "setProperty"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Weather card"
+      ],
+      [
+        "button",
+        "Sunny theme"
+      ],
+      [
+        "button",
+        "Rainy theme"
+      ],
+      [
+        "label",
+        "Choose a theme"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Weather card",
+            "id": "labelTitle",
+            "note": "text: Weather card",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Sunny theme",
+            "id": "buttonSunnyTheme",
+            "note": "text: Sunny theme",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Rainy theme",
+            "id": "buttonRainyTheme",
+            "note": "text: Rainy theme",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Choose a theme",
+            "id": "labelChooseATheme",
+            "note": "text: Choose a theme",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/11-weather-theme.svg"
+    ],
+    "sketch": "sketches/11-weather-theme.svg"
+  },
+  {
+    "number": 12,
+    "group": 4,
+    "anchor": false,
+    "title": "Focus Palette",
+    "purpose": "Choose a low-glare color scheme",
+    "elements": [
+      "Screen",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "onEvent",
+      "setProperty"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Focus palette"
+      ],
+      [
+        "button",
+        "Soft blue"
+      ],
+      [
+        "button",
+        "Warm cream"
+      ],
+      [
+        "label",
+        "Choose a palette"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Focus palette",
+            "id": "labelTitle",
+            "note": "text: Focus palette",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Soft blue",
+            "id": "buttonSoftBlue",
+            "note": "text: Soft blue",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Warm cream",
+            "id": "buttonWarmCream",
+            "note": "text: Warm cream",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Choose a palette",
+            "id": "labelChooseAPalette",
+            "note": "text: Choose a palette",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/12-focus-palette.svg"
+    ],
+    "sketch": "sketches/12-focus-palette.svg"
+  },
+  {
+    "number": 13,
+    "group": 5,
+    "anchor": true,
+    "title": "Gallery Preview",
+    "purpose": "Reveal one picture at a time",
+    "elements": [
+      "Image",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "onEvent",
+      "showElement",
+      "hideElement",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Local places"
+      ],
+      [
+        "image",
+        "One picture shown"
+      ],
+      [
+        "button",
+        "Next picture"
+      ],
+      [
+        "label",
+        "Library"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Local places",
+            "id": "labelTitle",
+            "note": "text: Local places",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "image",
+            "type": "Image",
+            "label": "One picture shown",
+            "id": "imageFirst",
+            "note": "choose a built-in image; initially visible",
+            "io": "OUTPUT",
+            "ioType": "visual"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Next picture",
+            "id": "buttonNext",
+            "note": "text: Next picture",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Library",
+            "id": "labelCaption",
+            "note": "text: Library",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": [
+          {
+            "kind": "image",
+            "type": "Image",
+            "id": "imageSecond",
+            "note": "choose a second built-in image; hidden at Run",
+            "io": "OUTPUT",
+            "ioType": "visual",
+            "label": "Second picture"
+          }
+        ]
+      }
+    ],
+    "sketches": [
+      "sketches/13-gallery-preview.svg"
+    ],
+    "sketch": "sketches/13-gallery-preview.svg"
+  },
+  {
+    "number": 14,
+    "group": 5,
+    "anchor": false,
+    "title": "Recycling Guide",
+    "purpose": "Show one sorting example at a time",
+    "elements": [
+      "Image",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "onEvent",
+      "showElement",
+      "hideElement"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Sort this item"
+      ],
+      [
+        "image",
+        "Paper"
+      ],
+      [
+        "button",
+        "Next item"
+      ],
+      [
+        "label",
+        "Paper bin"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Sort this item",
+            "id": "labelTitle",
+            "note": "text: Sort this item",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "image",
+            "type": "Image",
+            "label": "Paper",
+            "id": "imagePaper",
+            "note": "asset: choose a built-in image",
+            "io": "OUTPUT",
+            "ioType": "visual"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Next item",
+            "id": "buttonNextItem",
+            "note": "text: Next item",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Paper bin",
+            "id": "labelPaperBin",
+            "note": "text: Paper bin",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/14-recycling-guide.svg"
+    ],
+    "sketch": "sketches/14-recycling-guide.svg"
+  },
+  {
+    "number": 15,
+    "group": 5,
+    "anchor": false,
+    "title": "Plant ID Card",
+    "purpose": "Flip between two plant pictures",
+    "elements": [
+      "Image",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "onEvent",
+      "showElement",
+      "hideElement"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Garden guide"
+      ],
+      [
+        "image",
+        "Plant photo"
+      ],
+      [
+        "button",
+        "Next plant"
+      ],
+      [
+        "label",
+        "Mint"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Garden guide",
+            "id": "labelTitle",
+            "note": "text: Garden guide",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "image",
+            "type": "Image",
+            "label": "Plant photo",
+            "id": "imagePlantPhoto",
+            "note": "asset: choose a built-in image",
+            "io": "OUTPUT",
+            "ioType": "visual"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Next plant",
+            "id": "buttonNextPlant",
+            "note": "text: Next plant",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Mint",
+            "id": "labelMint",
+            "note": "text: Mint",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/15-plant-id-card.svg"
+    ],
+    "sketch": "sketches/15-plant-id-card.svg"
+  },
+  {
+    "number": 16,
+    "group": 6,
+    "anchor": true,
+    "title": "Option Menu",
+    "purpose": "Echo a selected help topic",
+    "elements": [
+      "Dropdown",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getText",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Help desk"
+      ],
+      [
+        "dropdown",
+        "Choose a topic"
+      ],
+      [
+        "button",
+        "Show choice"
+      ],
+      [
+        "label",
+        "You chose: Wi-Fi"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Help desk",
+            "id": "labelTitle",
+            "note": "text: Help desk",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "dropdown",
+            "type": "Dropdown",
+            "label": "Choose a topic",
+            "id": "dropdownTopic",
+            "note": "options: Wi-Fi, Library, Cafeteria",
+            "io": "INPUT",
+            "ioType": "one choice"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Show choice",
+            "id": "buttonShow",
+            "note": "text: Show choice",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "You chose: Wi-Fi",
+            "id": "labelTip",
+            "note": "text: You chose: Wi-Fi",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/16-option-menu.svg"
+    ],
+    "sketch": "sketches/16-option-menu.svg"
+  },
+  {
+    "number": 17,
+    "group": 6,
+    "anchor": false,
+    "title": "Bus Stop Helper",
+    "purpose": "Select a stop to display its name",
+    "elements": [
+      "Dropdown",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getText",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Bus stop finder"
+      ],
+      [
+        "dropdown",
+        "Choose a stop"
+      ],
+      [
+        "button",
+        "Confirm stop"
+      ],
+      [
+        "label",
+        "Stop: Library"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Bus stop finder",
+            "id": "labelTitle",
+            "note": "text: Bus stop finder",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "dropdown",
+            "type": "Dropdown",
+            "label": "Choose a stop",
+            "id": "dropdownChooseAStop",
+            "note": "options: Choose a stop",
+            "io": "INPUT",
+            "ioType": "one choice"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Confirm stop",
+            "id": "buttonConfirmStop",
+            "note": "text: Confirm stop",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Stop: Library",
+            "id": "labelStopLibrary",
+            "note": "text: Stop: Library",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/17-bus-stop-helper.svg"
+    ],
+    "sketch": "sketches/17-bus-stop-helper.svg"
+  },
+  {
+    "number": 18,
+    "group": 6,
+    "anchor": false,
+    "title": "Meal Picker",
+    "purpose": "Preview a lunch choice",
+    "elements": [
+      "Dropdown",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getText",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Lunch choice"
+      ],
+      [
+        "dropdown",
+        "Choose a meal"
+      ],
+      [
+        "button",
+        "Preview"
+      ],
+      [
+        "label",
+        "You chose soup"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Lunch choice",
+            "id": "labelTitle",
+            "note": "text: Lunch choice",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "dropdown",
+            "type": "Dropdown",
+            "label": "Choose a meal",
+            "id": "dropdownChooseAMeal",
+            "note": "options: Choose a meal",
+            "io": "INPUT",
+            "ioType": "one choice"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Preview",
+            "id": "buttonPreview",
+            "note": "text: Preview",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "You chose soup",
+            "id": "labelYouChoseSoup",
+            "note": "text: You chose soup",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/18-meal-picker.svg"
+    ],
+    "sketch": "sketches/18-meal-picker.svg"
+  },
+  {
+    "number": 19,
+    "group": 7,
+    "anchor": true,
+    "title": "Checklist Check",
+    "purpose": "Confirm a packed item",
+    "elements": [
+      "Checkbox",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getChecked",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Pack for class"
+      ],
+      [
+        "checkbox",
+        "Charger packed"
+      ],
+      [
+        "button",
+        "Check bag"
+      ],
+      [
+        "label",
+        "Check your bag"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Pack for class",
+            "id": "labelTitle",
+            "note": "text: Pack for class",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "checkbox",
+            "type": "Checkbox",
+            "label": "Charger packed",
+            "id": "checkboxCharger",
+            "note": "checked: false at start",
+            "io": "INPUT",
+            "ioType": "toggle"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Check bag",
+            "id": "buttonCheck",
+            "note": "text: Check bag",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Check your bag",
+            "id": "labelResult",
+            "note": "text: Check your bag",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/19-checklist-check.svg"
+    ],
+    "sketch": "sketches/19-checklist-check.svg"
+  },
+  {
+    "number": 20,
+    "group": 7,
+    "anchor": false,
+    "title": "Trip Packing Check",
+    "purpose": "Confirm a travel item",
+    "elements": [
+      "Checkbox",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getChecked",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Trip checklist"
+      ],
+      [
+        "checkbox",
+        "Water bottle"
+      ],
+      [
+        "button",
+        "Check"
+      ],
+      [
+        "label",
+        "Bottle packed"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Trip checklist",
+            "id": "labelTitle",
+            "note": "text: Trip checklist",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "checkbox",
+            "type": "Checkbox",
+            "label": "Water bottle",
+            "id": "checkboxWaterBottle",
+            "note": "text: Water bottle; checked: false",
+            "io": "INPUT",
+            "ioType": "toggle"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Check",
+            "id": "buttonCheck",
+            "note": "text: Check",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Bottle packed",
+            "id": "labelBottlePacked",
+            "note": "text: Bottle packed",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/20-trip-packing-check.svg"
+    ],
+    "sketch": "sketches/20-trip-packing-check.svg"
+  },
+  {
+    "number": 21,
+    "group": 7,
+    "anchor": false,
+    "title": "Safety Check",
+    "purpose": "Confirm a step before continuing",
+    "elements": [
+      "Checkbox",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getChecked",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Lab setup"
+      ],
+      [
+        "checkbox",
+        "Goggles on"
+      ],
+      [
+        "button",
+        "Check setup"
+      ],
+      [
+        "label",
+        "Ready to begin"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Lab setup",
+            "id": "labelTitle",
+            "note": "text: Lab setup",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "checkbox",
+            "type": "Checkbox",
+            "label": "Goggles on",
+            "id": "checkboxGogglesOn",
+            "note": "text: Goggles on; checked: false",
+            "io": "INPUT",
+            "ioType": "toggle"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Check setup",
+            "id": "buttonCheckSetup",
+            "note": "text: Check setup",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Ready to begin",
+            "id": "labelReadyToBegin",
+            "note": "text: Ready to begin",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/21-safety-check.svg"
+    ],
+    "sketch": "sketches/21-safety-check.svg"
+  },
+  {
+    "number": 22,
+    "group": 8,
+    "anchor": true,
+    "title": "Route Choice",
+    "purpose": "Pick exactly one route option",
+    "elements": [
+      "Radio Button",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getChecked",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Choose a route"
+      ],
+      [
+        "radio",
+        "Walk"
+      ],
+      [
+        "radio",
+        "Ride"
+      ],
+      [
+        "button",
+        "Confirm"
+      ],
+      [
+        "label",
+        "Route: Walk"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Choose a route",
+            "id": "labelTitle",
+            "note": "text: Choose a route",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "radio",
+            "type": "Radio Button",
+            "label": "Walk",
+            "id": "radioButtonWalk",
+            "note": "group-id: routeChoice; checked: true",
+            "io": "INPUT",
+            "ioType": "one choice"
+          },
+          {
+            "kind": "radio",
+            "type": "Radio Button",
+            "label": "Ride",
+            "id": "radioButtonRide",
+            "note": "group-id: routeChoice; checked: false",
+            "io": "INPUT",
+            "ioType": "one choice"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Confirm",
+            "id": "buttonConfirm",
+            "note": "text: Confirm",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Route: Walk",
+            "id": "labelRoute",
+            "note": "text: Route: Walk",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/22-route-choice.svg"
+    ],
+    "sketch": "sketches/22-route-choice.svg"
+  },
+  {
+    "number": 23,
+    "group": 8,
+    "anchor": false,
+    "title": "Break Type",
+    "purpose": "Choose one kind of break",
+    "elements": [
+      "Radio Button",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getChecked",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Break planner"
+      ],
+      [
+        "radio",
+        "Stretch"
+      ],
+      [
+        "radio",
+        "Quiet"
+      ],
+      [
+        "button",
+        "Choose"
+      ],
+      [
+        "label",
+        "Try a stretch"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Break planner",
+            "id": "labelTitle",
+            "note": "text: Break planner",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "radio",
+            "type": "Radio Button",
+            "label": "Stretch",
+            "id": "radioButtonStretch",
+            "note": "group-id: breakMode; checked: true",
+            "io": "INPUT",
+            "ioType": "one choice"
+          },
+          {
+            "kind": "radio",
+            "type": "Radio Button",
+            "label": "Quiet",
+            "id": "radioButtonQuiet",
+            "note": "group-id: breakMode; checked: false",
+            "io": "INPUT",
+            "ioType": "one choice"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Choose",
+            "id": "buttonChoose",
+            "note": "text: Choose",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Try a stretch",
+            "id": "labelTryAStretch",
+            "note": "text: Try a stretch",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/23-break-type.svg"
+    ],
+    "sketch": "sketches/23-break-type.svg"
+  },
+  {
+    "number": 24,
+    "group": 8,
+    "anchor": false,
+    "title": "Study Mode",
+    "purpose": "Choose one study setting",
+    "elements": [
+      "Radio Button",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getChecked",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Study mode"
+      ],
+      [
+        "radio",
+        "Solo"
+      ],
+      [
+        "radio",
+        "Partner"
+      ],
+      [
+        "button",
+        "Set mode"
+      ],
+      [
+        "label",
+        "Partner mode"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Study mode",
+            "id": "labelTitle",
+            "note": "text: Study mode",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "radio",
+            "type": "Radio Button",
+            "label": "Solo",
+            "id": "radioButtonSolo",
+            "note": "group-id: choiceGroup; checked: true",
+            "io": "INPUT",
+            "ioType": "one choice"
+          },
+          {
+            "kind": "radio",
+            "type": "Radio Button",
+            "label": "Partner",
+            "id": "radioButtonPartner",
+            "note": "group-id: choiceGroup; checked: false",
+            "io": "INPUT",
+            "ioType": "one choice"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Set mode",
+            "id": "buttonSetMode",
+            "note": "text: Set mode",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Partner mode",
+            "id": "labelPartnerMode",
+            "note": "text: Partner mode",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/24-study-mode.svg"
+    ],
+    "sketch": "sketches/24-study-mode.svg"
+  },
+  {
+    "number": 25,
+    "group": 9,
+    "anchor": true,
+    "title": "Study Sprint Plan",
+    "purpose": "Assessment 1: combine five UI elements into a useful plan",
+    "elements": [
+      "Text Input",
+      "Dropdown",
+      "Checkbox",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getText",
+      "getChecked",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Study sprint"
+      ],
+      [
+        "input",
+        "What task?"
+      ],
+      [
+        "dropdown",
+        "10 / 20 / 30 min"
+      ],
+      [
+        "checkbox",
+        "Quiet space"
+      ],
+      [
+        "button",
+        "Make plan"
+      ],
+      [
+        "label",
+        "Plan appears here"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Study sprint",
+            "id": "labelTitle",
+            "note": "text: Study sprint",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "input",
+            "type": "Text Input",
+            "label": "What task?",
+            "id": "textInputTask",
+            "note": "placeholder: What task?",
+            "io": "INPUT",
+            "ioType": "typed text"
+          },
+          {
+            "kind": "dropdown",
+            "type": "Dropdown",
+            "label": "10 / 20 / 30 min",
+            "id": "dropdownDuration",
+            "note": "options: 10 min, 20 min, 30 min",
+            "io": "INPUT",
+            "ioType": "one choice"
+          },
+          {
+            "kind": "checkbox",
+            "type": "Checkbox",
+            "label": "Quiet space",
+            "id": "checkboxQuiet",
+            "note": "checked: false at start",
+            "io": "INPUT",
+            "ioType": "toggle"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Make plan",
+            "id": "buttonPlan",
+            "note": "text: Make plan",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Plan appears here",
+            "id": "labelPlan",
+            "note": "text: Plan appears here",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/25-study-sprint-plan.svg"
+    ],
+    "sketch": "sketches/25-study-sprint-plan.svg"
+  },
+  {
+    "number": 26,
+    "group": 9,
+    "anchor": false,
+    "title": "Homework Start Plan",
+    "purpose": "Turn a task and time choice into a start plan",
+    "elements": [
+      "Text Input",
+      "Dropdown",
+      "Checkbox",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getText",
+      "getChecked",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Homework start"
+      ],
+      [
+        "input",
+        "First task"
+      ],
+      [
+        "dropdown",
+        "Time available"
+      ],
+      [
+        "checkbox",
+        "Need quiet"
+      ],
+      [
+        "button",
+        "Plan"
+      ],
+      [
+        "label",
+        "Start with..."
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Homework start",
+            "id": "labelTitle",
+            "note": "text: Homework start",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "input",
+            "type": "Text Input",
+            "label": "First task",
+            "id": "textInputFirstTask",
+            "note": "placeholder: First task",
+            "io": "INPUT",
+            "ioType": "typed text"
+          },
+          {
+            "kind": "dropdown",
+            "type": "Dropdown",
+            "label": "Time available",
+            "id": "dropdownTimeAvailable",
+            "note": "options: Time available",
+            "io": "INPUT",
+            "ioType": "one choice"
+          },
+          {
+            "kind": "checkbox",
+            "type": "Checkbox",
+            "label": "Need quiet",
+            "id": "checkboxNeedQuiet",
+            "note": "text: Need quiet; checked: false",
+            "io": "INPUT",
+            "ioType": "toggle"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Plan",
+            "id": "buttonPlan",
+            "note": "text: Plan",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Start with...",
+            "id": "labelStartWith",
+            "note": "text: Start with...",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/26-homework-start-plan.svg"
+    ],
+    "sketch": "sketches/26-homework-start-plan.svg"
+  },
+  {
+    "number": 27,
+    "group": 9,
+    "anchor": false,
+    "title": "Event Checklist",
+    "purpose": "Create a simple event preparation message",
+    "elements": [
+      "Text Input",
+      "Dropdown",
+      "Checkbox",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getText",
+      "getChecked",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Event prep"
+      ],
+      [
+        "input",
+        "Event name"
+      ],
+      [
+        "dropdown",
+        "When?"
+      ],
+      [
+        "checkbox",
+        "Bring supplies"
+      ],
+      [
+        "button",
+        "Summarize"
+      ],
+      [
+        "label",
+        "Your prep note"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Event prep",
+            "id": "labelTitle",
+            "note": "text: Event prep",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "input",
+            "type": "Text Input",
+            "label": "Event name",
+            "id": "textInputEventName",
+            "note": "placeholder: Event name",
+            "io": "INPUT",
+            "ioType": "typed text"
+          },
+          {
+            "kind": "dropdown",
+            "type": "Dropdown",
+            "label": "When?",
+            "id": "dropdownWhen",
+            "note": "options: When?",
+            "io": "INPUT",
+            "ioType": "one choice"
+          },
+          {
+            "kind": "checkbox",
+            "type": "Checkbox",
+            "label": "Bring supplies",
+            "id": "checkboxBringSupplies",
+            "note": "text: Bring supplies; checked: false",
+            "io": "INPUT",
+            "ioType": "toggle"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Summarize",
+            "id": "buttonSummarize",
+            "note": "text: Summarize",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Your prep note",
+            "id": "labelYourPrepNote",
+            "note": "text: Your prep note",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/27-event-checklist.svg"
+    ],
+    "sketch": "sketches/27-event-checklist.svg"
+  },
+  {
+    "number": 28,
+    "group": 10,
+    "anchor": true,
+    "title": "Minutes Slider",
+    "purpose": "See a chosen duration update",
+    "elements": [
+      "Slider",
+      "Label"
+    ],
+    "blocks": [
+      "getProperty",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "How long?"
+      ],
+      [
+        "slider",
+        "0 \u2014 60 minutes"
+      ],
+      [
+        "label",
+        "20 minutes"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "How long?",
+            "id": "labelTitle",
+            "note": "text: How long?",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "slider",
+            "type": "Slider",
+            "label": "0 \u2014 60 minutes",
+            "id": "sliderMinutes",
+            "note": "min: 0; max: 60; step: 5; value: 20",
+            "io": "INPUT",
+            "ioType": "number"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "20 minutes",
+            "id": "labelMinutes",
+            "note": "text: 20 minutes",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/28-minutes-slider.svg"
+    ],
+    "sketch": "sketches/28-minutes-slider.svg"
+  },
+  {
+    "number": 29,
+    "group": 10,
+    "anchor": false,
+    "title": "Stretch Timer Dial",
+    "purpose": "Set a short stretch length",
+    "elements": [
+      "Slider",
+      "Label"
+    ],
+    "blocks": [
+      "getProperty",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Stretch break"
+      ],
+      [
+        "slider",
+        "1 \u2014 15 minutes"
+      ],
+      [
+        "label",
+        "5 minutes"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Stretch break",
+            "id": "labelTitle",
+            "note": "text: Stretch break",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "slider",
+            "type": "Slider",
+            "label": "1 \u2014 15 minutes",
+            "id": "sliderValue115Minutes",
+            "note": "range preview: 1 \u2014 15 minutes",
+            "io": "INPUT",
+            "ioType": "number"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "5 minutes",
+            "id": "labelValue5Minutes",
+            "note": "text: 5 minutes",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/29-stretch-timer-dial.svg"
+    ],
+    "sketch": "sketches/29-stretch-timer-dial.svg"
+  },
+  {
+    "number": 30,
+    "group": 10,
+    "anchor": false,
+    "title": "Budget Dial",
+    "purpose": "Preview a spending limit",
+    "elements": [
+      "Slider",
+      "Label"
+    ],
+    "blocks": [
+      "getProperty",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Snack budget"
+      ],
+      [
+        "slider",
+        "$0 \u2014 $20"
+      ],
+      [
+        "label",
+        "$8 limit"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Snack budget",
+            "id": "labelTitle",
+            "note": "text: Snack budget",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "slider",
+            "type": "Slider",
+            "label": "$0 \u2014 $20",
+            "id": "sliderValue020",
+            "note": "range preview: $0 \u2014 $20",
+            "io": "INPUT",
+            "ioType": "number"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "$8 limit",
+            "id": "labelValue8Limit",
+            "note": "text: $8 limit",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/30-budget-dial.svg"
+    ],
+    "sketch": "sketches/30-budget-dial.svg"
+  },
+  {
+    "number": 31,
+    "group": 11,
+    "anchor": true,
+    "title": "Class Time Chart",
+    "purpose": "Show a small prepared data set",
+    "elements": [
+      "Chart",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "drawChart (teacher)",
+      "onEvent",
+      "hideElement",
+      "showElement",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Reading time this week"
+      ],
+      [
+        "chart",
+        "Mon Tue Wed Thu"
+      ],
+      [
+        "button",
+        "Show chart"
+      ],
+      [
+        "label",
+        "Minutes by day"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Reading time this week",
+            "id": "labelTitle",
+            "note": "text: Reading time this week",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "chart",
+            "type": "Chart",
+            "label": "Mon Tue Wed Thu",
+            "id": "chartTime",
+            "note": "hidden at Run; Mon 10, Tue 20, Wed 15",
+            "io": "OUTPUT",
+            "ioType": "data graphic"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Show chart",
+            "id": "buttonReveal",
+            "note": "text: Show chart",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Minutes by day",
+            "id": "labelChart",
+            "note": "text: Minutes by day",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/31-class-time-chart.svg"
+    ],
+    "sketch": "sketches/31-class-time-chart.svg"
+  },
+  {
+    "number": 32,
+    "group": 11,
+    "anchor": false,
+    "title": "Reading Pulse",
+    "purpose": "Compare reading minutes by day",
+    "elements": [
+      "Chart",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "drawChart (teacher)",
+      "showElement"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Reading pulse"
+      ],
+      [
+        "chart",
+        "Daily minutes"
+      ],
+      [
+        "button",
+        "Reveal data"
+      ],
+      [
+        "label",
+        "Compare the bars"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Reading pulse",
+            "id": "labelTitle",
+            "note": "text: Reading pulse",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "chart",
+            "type": "Chart",
+            "label": "Daily minutes",
+            "id": "chartDailyMinutes",
+            "note": "teacher supplies chart data",
+            "io": "OUTPUT",
+            "ioType": "data graphic"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Reveal data",
+            "id": "buttonRevealData",
+            "note": "text: Reveal data",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Compare the bars",
+            "id": "labelCompareTheBars",
+            "note": "text: Compare the bars",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/32-reading-pulse.svg"
+    ],
+    "sketch": "sketches/32-reading-pulse.svg"
+  },
+  {
+    "number": 33,
+    "group": 11,
+    "anchor": false,
+    "title": "Water Use Snapshot",
+    "purpose": "Show a simple category chart",
+    "elements": [
+      "Chart",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "drawChart (teacher)",
+      "showElement"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Water use"
+      ],
+      [
+        "chart",
+        "Home categories"
+      ],
+      [
+        "button",
+        "Show data"
+      ],
+      [
+        "label",
+        "Largest category?"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Water use",
+            "id": "labelTitle",
+            "note": "text: Water use",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "chart",
+            "type": "Chart",
+            "label": "Home categories",
+            "id": "chartHomeCategories",
+            "note": "teacher supplies chart data",
+            "io": "OUTPUT",
+            "ioType": "data graphic"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Show data",
+            "id": "buttonShowData",
+            "note": "text: Show data",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Largest category?",
+            "id": "labelLargestCategory",
+            "note": "text: Largest category?",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/33-water-use-snapshot.svg"
+    ],
+    "sketch": "sketches/33-water-use-snapshot.svg"
+  },
+  {
+    "number": 34,
+    "group": 12,
+    "anchor": true,
+    "title": "Time Adder",
+    "purpose": "Add two durations with supplied arithmetic",
+    "elements": [
+      "Text Input",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getNumber",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Time adder"
+      ],
+      [
+        "input",
+        "Minutes: task 1"
+      ],
+      [
+        "input",
+        "Minutes: task 2"
+      ],
+      [
+        "button",
+        "Add time"
+      ],
+      [
+        "label",
+        "Total: 35 min"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Time adder",
+            "id": "labelTitle",
+            "note": "text: Time adder",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "input",
+            "type": "Text Input",
+            "label": "Minutes: task 1",
+            "id": "textInputFirstMinutes",
+            "note": "placeholder: Minutes: task 1",
+            "io": "INPUT",
+            "ioType": "typed text"
+          },
+          {
+            "kind": "input",
+            "type": "Text Input",
+            "label": "Minutes: task 2",
+            "id": "textInputSecondMinutes",
+            "note": "placeholder: Minutes: task 2",
+            "io": "INPUT",
+            "ioType": "typed text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Add time",
+            "id": "buttonAdd",
+            "note": "text: Add time",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Total: 35 min",
+            "id": "labelTotal",
+            "note": "text: Total: 35 min",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/34-time-adder.svg"
+    ],
+    "sketch": "sketches/34-time-adder.svg"
+  },
+  {
+    "number": 35,
+    "group": 12,
+    "anchor": false,
+    "title": "Travel Time Total",
+    "purpose": "Combine two trip legs",
+    "elements": [
+      "Text Input",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getNumber",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Trip minutes"
+      ],
+      [
+        "input",
+        "Leg 1 minutes"
+      ],
+      [
+        "input",
+        "Leg 2 minutes"
+      ],
+      [
+        "button",
+        "Add"
+      ],
+      [
+        "label",
+        "Total trip time"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Trip minutes",
+            "id": "labelTitle",
+            "note": "text: Trip minutes",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "input",
+            "type": "Text Input",
+            "label": "Leg 1 minutes",
+            "id": "textInputLeg1Minutes",
+            "note": "placeholder: Leg 1 minutes",
+            "io": "INPUT",
+            "ioType": "typed text"
+          },
+          {
+            "kind": "input",
+            "type": "Text Input",
+            "label": "Leg 2 minutes",
+            "id": "textInputLeg2Minutes",
+            "note": "placeholder: Leg 2 minutes",
+            "io": "INPUT",
+            "ioType": "typed text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Add",
+            "id": "buttonAdd",
+            "note": "text: Add",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Total trip time",
+            "id": "labelTotalTripTime",
+            "note": "text: Total trip time",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/35-travel-time-total.svg"
+    ],
+    "sketch": "sketches/35-travel-time-total.svg"
+  },
+  {
+    "number": 36,
+    "group": 12,
+    "anchor": false,
+    "title": "Supply Cost",
+    "purpose": "Combine two item prices",
+    "elements": [
+      "Text Input",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getNumber",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Supply cost"
+      ],
+      [
+        "input",
+        "Item 1 cost"
+      ],
+      [
+        "input",
+        "Item 2 cost"
+      ],
+      [
+        "button",
+        "Total"
+      ],
+      [
+        "label",
+        "Total cost"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Supply cost",
+            "id": "labelTitle",
+            "note": "text: Supply cost",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "input",
+            "type": "Text Input",
+            "label": "Item 1 cost",
+            "id": "textInputItem1Cost",
+            "note": "placeholder: Item 1 cost",
+            "io": "INPUT",
+            "ioType": "typed text"
+          },
+          {
+            "kind": "input",
+            "type": "Text Input",
+            "label": "Item 2 cost",
+            "id": "textInputItem2Cost",
+            "note": "placeholder: Item 2 cost",
+            "io": "INPUT",
+            "ioType": "typed text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Total",
+            "id": "buttonTotal",
+            "note": "text: Total",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Total cost",
+            "id": "labelTotalCost",
+            "note": "text: Total cost",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/36-supply-cost.svg"
+    ],
+    "sketch": "sketches/36-supply-cost.svg"
+  },
+  {
+    "number": 37,
+    "group": 13,
+    "anchor": true,
+    "title": "Sound Cue",
+    "purpose": "Play and stop a chosen sound",
+    "elements": [
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "playSound",
+      "stopSound",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Sound cue"
+      ],
+      [
+        "button",
+        "Play cue"
+      ],
+      [
+        "button",
+        "Stop cue"
+      ],
+      [
+        "label",
+        "Sound output"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Sound cue",
+            "id": "labelTitle",
+            "note": "text: Sound cue",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Play cue",
+            "id": "buttonPlay",
+            "note": "text: Play cue",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Stop cue",
+            "id": "buttonStop",
+            "note": "text: Stop cue",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Sound output",
+            "id": "labelSound",
+            "note": "text: Sound output",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/37-sound-cue.svg"
+    ],
+    "sketch": "sketches/37-sound-cue.svg"
+  },
+  {
+    "number": 38,
+    "group": 13,
+    "anchor": false,
+    "title": "Beat Pad",
+    "purpose": "Trigger two short percussion sounds",
+    "elements": [
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "playSound",
+      "onEvent"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Beat pad"
+      ],
+      [
+        "button",
+        "Kick"
+      ],
+      [
+        "button",
+        "Clap"
+      ],
+      [
+        "label",
+        "Tap a pad"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Beat pad",
+            "id": "labelTitle",
+            "note": "text: Beat pad",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Kick",
+            "id": "buttonKick",
+            "note": "text: Kick",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Clap",
+            "id": "buttonClap",
+            "note": "text: Clap",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Tap a pad",
+            "id": "labelTapAPad",
+            "note": "text: Tap a pad",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/38-beat-pad.svg"
+    ],
+    "sketch": "sketches/38-beat-pad.svg"
+  },
+  {
+    "number": 39,
+    "group": 13,
+    "anchor": false,
+    "title": "Alert Tester",
+    "purpose": "Compare two notification sounds",
+    "elements": [
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "playSound",
+      "stopSound",
+      "onEvent"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Alert tester"
+      ],
+      [
+        "button",
+        "Soft alert"
+      ],
+      [
+        "button",
+        "Strong alert"
+      ],
+      [
+        "label",
+        "Which is clearer?"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Alert tester",
+            "id": "labelTitle",
+            "note": "text: Alert tester",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Soft alert",
+            "id": "buttonSoftAlert",
+            "note": "text: Soft alert",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Strong alert",
+            "id": "buttonStrongAlert",
+            "note": "text: Strong alert",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Which is clearer?",
+            "id": "labelWhichIsClearer",
+            "note": "text: Which is clearer?",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/39-alert-tester.svg"
+    ],
+    "sketch": "sketches/39-alert-tester.svg"
+  },
+  {
+    "number": 40,
+    "group": 14,
+    "anchor": true,
+    "title": "Two-Screen Guide",
+    "purpose": "Use Next and Back to move through a tiny guide",
+    "elements": [
+      "Screen",
+      "Image",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "setScreen",
+      "onEvent"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Library guide \u2022 1/2"
+      ],
+      [
+        "image",
+        "Borrowing desk"
+      ],
+      [
+        "button",
+        "Next \u2192"
+      ],
+      [
+        "label",
+        "Find a book"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenHome",
+        "name": "Screen 1",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Library guide \u2022 1/2",
+            "id": "labelTitle",
+            "note": "text: Library guide \u2022 1/2",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "image",
+            "type": "Image",
+            "label": "Borrowing desk",
+            "id": "imageHome",
+            "note": "asset: choose a built-in image",
+            "io": "OUTPUT",
+            "ioType": "visual"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Next \u2192",
+            "id": "buttonNext",
+            "note": "text: Next \u2192",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Find a book",
+            "id": "labelStep",
+            "note": "text: Find a book",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      },
+      {
+        "id": "screenDetail",
+        "name": "Screen 2",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Library guide \u00b7 2/2",
+            "id": "labelDetailTitle",
+            "note": "text: Library guide \u00b7 2/2",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "image",
+            "type": "Image",
+            "label": "Checkout desk",
+            "id": "imageDetail",
+            "note": "asset: choose a built-in image",
+            "io": "OUTPUT",
+            "ioType": "visual"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Bring your card",
+            "id": "labelDetailStep",
+            "note": "text: Bring your card",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "\u2190 Back",
+            "id": "buttonBack",
+            "note": "text: \u2190 Back",
+            "io": "INPUT",
+            "ioType": "tap"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/40-two-screen-guide-screen-1.svg",
+      "sketches/40-two-screen-guide-screen-2.svg"
+    ],
+    "sketch": "sketches/40-two-screen-guide-screen-1.svg"
+  },
+  {
+    "number": 41,
+    "group": 14,
+    "anchor": false,
+    "title": "Museum Gallery",
+    "purpose": "Browse two exhibit cards",
+    "elements": [
+      "Screen",
+      "Image",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "setScreen",
+      "onEvent"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Gallery \u2022 1/2"
+      ],
+      [
+        "image",
+        "Exhibit"
+      ],
+      [
+        "button",
+        "Next \u2192"
+      ],
+      [
+        "label",
+        "Title and detail"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenHome",
+        "name": "Screen 1",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Gallery \u2022 1/2",
+            "id": "labelTitle",
+            "note": "text: Gallery \u2022 1/2",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "image",
+            "type": "Image",
+            "label": "Exhibit",
+            "id": "imageExhibit",
+            "note": "asset: choose a built-in image",
+            "io": "OUTPUT",
+            "ioType": "visual"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Next \u2192",
+            "id": "buttonNext",
+            "note": "text: Next \u2192",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Title and detail",
+            "id": "labelTitleAndDetail",
+            "note": "text: Title and detail",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      },
+      {
+        "id": "screenDetail",
+        "name": "Screen 2",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Gallery \u00b7 2/2",
+            "id": "labelDetailTitle",
+            "note": "text: Gallery \u00b7 2/2",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "image",
+            "type": "Image",
+            "label": "Second exhibit",
+            "id": "imageDetail",
+            "note": "asset: choose a built-in image",
+            "io": "OUTPUT",
+            "ioType": "visual"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Exhibit story",
+            "id": "labelDetailStep",
+            "note": "text: Exhibit story",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "\u2190 Back",
+            "id": "buttonBack",
+            "note": "text: \u2190 Back",
+            "io": "INPUT",
+            "ioType": "tap"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/41-museum-gallery-screen-1.svg",
+      "sketches/41-museum-gallery-screen-2.svg"
+    ],
+    "sketch": "sketches/41-museum-gallery-screen-1.svg"
+  },
+  {
+    "number": 42,
+    "group": 14,
+    "anchor": false,
+    "title": "How-To Cards",
+    "purpose": "Read two steps on separate screens",
+    "elements": [
+      "Screen",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "setScreen",
+      "onEvent"
+    ],
+    "widgets": [
+      [
+        "label",
+        "How to borrow \u2022 1/2"
+      ],
+      [
+        "label",
+        "Step 1: Find a title"
+      ],
+      [
+        "button",
+        "Next step \u2192"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenHome",
+        "name": "Screen 1",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "How to borrow \u2022 1/2",
+            "id": "labelTitle",
+            "note": "text: How to borrow \u2022 1/2",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Step 1: Find a title",
+            "id": "labelStep1FindATitle",
+            "note": "text: Step 1: Find a title",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Next step \u2192",
+            "id": "buttonNextStep",
+            "note": "text: Next step \u2192",
+            "io": "INPUT",
+            "ioType": "tap"
+          }
+        ],
+        "extras": []
+      },
+      {
+        "id": "screenDetail",
+        "name": "Screen 2",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "How to borrow \u00b7 2/2",
+            "id": "labelDetailTitle",
+            "note": "text: How to borrow \u00b7 2/2",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Step 2: Check out",
+            "id": "labelDetailStep",
+            "note": "text: Step 2: Check out",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "\u2190 Back",
+            "id": "buttonBack",
+            "note": "text: \u2190 Back",
+            "io": "INPUT",
+            "ioType": "tap"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/42-how-to-cards-screen-1.svg",
+      "sketches/42-how-to-cards-screen-2.svg"
+    ],
+    "sketch": "sketches/42-how-to-cards-screen-1.svg"
+  },
+  {
+    "number": 43,
+    "group": 15,
+    "anchor": true,
+    "title": "Idea Capture",
+    "purpose": "Turn a long note into a visible receipt",
+    "elements": [
+      "Text Area",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getText",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Idea capture"
+      ],
+      [
+        "textarea",
+        "Write an idea..."
+      ],
+      [
+        "button",
+        "Preview note"
+      ],
+      [
+        "label",
+        "Your note appears"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Idea capture",
+            "id": "labelTitle",
+            "note": "text: Idea capture",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "textarea",
+            "type": "Text Area",
+            "label": "Write an idea...",
+            "id": "textAreaIdea",
+            "note": "editable: true; multiple lines",
+            "io": "INPUT",
+            "ioType": "long text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Preview note",
+            "id": "buttonPreview",
+            "note": "text: Preview note",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Your note appears",
+            "id": "labelReceipt",
+            "note": "text: Your note appears",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/43-idea-capture.svg"
+    ],
+    "sketch": "sketches/43-idea-capture.svg"
+  },
+  {
+    "number": 44,
+    "group": 15,
+    "anchor": false,
+    "title": "Feedback Box",
+    "purpose": "Preview a useful feedback note",
+    "elements": [
+      "Text Area",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getText",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Feedback"
+      ],
+      [
+        "textarea",
+        "What worked?"
+      ],
+      [
+        "button",
+        "Preview"
+      ],
+      [
+        "label",
+        "Feedback preview"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Feedback",
+            "id": "labelTitle",
+            "note": "text: Feedback",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "textarea",
+            "type": "Text Area",
+            "label": "What worked?",
+            "id": "textAreaWhatWorked",
+            "note": "placeholder: What worked?; editable",
+            "io": "INPUT",
+            "ioType": "long text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Preview",
+            "id": "buttonPreview",
+            "note": "text: Preview",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Feedback preview",
+            "id": "labelFeedbackPreview",
+            "note": "text: Feedback preview",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/44-feedback-box.svg"
+    ],
+    "sketch": "sketches/44-feedback-box.svg"
+  },
+  {
+    "number": 45,
+    "group": 15,
+    "anchor": false,
+    "title": "Lab Observation",
+    "purpose": "Capture a science observation",
+    "elements": [
+      "Text Area",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getText",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Observation"
+      ],
+      [
+        "textarea",
+        "I noticed..."
+      ],
+      [
+        "button",
+        "Preview"
+      ],
+      [
+        "label",
+        "Observation shown"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Observation",
+            "id": "labelTitle",
+            "note": "text: Observation",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "textarea",
+            "type": "Text Area",
+            "label": "I noticed...",
+            "id": "textAreaINoticed",
+            "note": "placeholder: I noticed...; editable",
+            "io": "INPUT",
+            "ioType": "long text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Preview",
+            "id": "buttonPreview",
+            "note": "text: Preview",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Observation shown",
+            "id": "labelObservationShown",
+            "note": "text: Observation shown",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/45-lab-observation.svg"
+    ],
+    "sketch": "sketches/45-lab-observation.svg"
+  },
+  {
+    "number": 46,
+    "group": 16,
+    "anchor": true,
+    "title": "Photo Note",
+    "purpose": "Select a photo and add a caption",
+    "elements": [
+      "Photo Select",
+      "Text Input",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getText",
+      "onEvent",
+      "setText",
+      "getImageURL (demo)"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Photo note"
+      ],
+      [
+        "photo",
+        "Choose a photo"
+      ],
+      [
+        "input",
+        "Short caption"
+      ],
+      [
+        "button",
+        "Add caption"
+      ],
+      [
+        "label",
+        "Caption appears"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Photo note",
+            "id": "labelTitle",
+            "note": "text: Photo note",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "photo",
+            "type": "Photo Select",
+            "label": "Choose a photo",
+            "id": "photoSelectPhoto",
+            "note": "choose a nonpersonal classroom sample",
+            "io": "INPUT",
+            "ioType": "photo"
+          },
+          {
+            "kind": "input",
+            "type": "Text Input",
+            "label": "Short caption",
+            "id": "textInputCaption",
+            "note": "placeholder: Short caption",
+            "io": "INPUT",
+            "ioType": "typed text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Add caption",
+            "id": "buttonCaption",
+            "note": "text: Add caption",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Caption appears",
+            "id": "labelCaption",
+            "note": "text: Caption appears",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/46-photo-note.svg"
+    ],
+    "sketch": "sketches/46-photo-note.svg"
+  },
+  {
+    "number": 47,
+    "group": 16,
+    "anchor": false,
+    "title": "Lost Item Report",
+    "purpose": "Record what a lost item looks like",
+    "elements": [
+      "Photo Select",
+      "Text Input",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getText",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Lost item"
+      ],
+      [
+        "photo",
+        "Choose photo"
+      ],
+      [
+        "input",
+        "Describe item"
+      ],
+      [
+        "button",
+        "Preview"
+      ],
+      [
+        "label",
+        "Description"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Lost item",
+            "id": "labelTitle",
+            "note": "text: Lost item",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "photo",
+            "type": "Photo Select",
+            "label": "Choose photo",
+            "id": "photoSelectChoosePhoto",
+            "note": "select a classroom sample photo",
+            "io": "INPUT",
+            "ioType": "photo"
+          },
+          {
+            "kind": "input",
+            "type": "Text Input",
+            "label": "Describe item",
+            "id": "textInputDescribeItem",
+            "note": "placeholder: Describe item",
+            "io": "INPUT",
+            "ioType": "typed text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Preview",
+            "id": "buttonPreview",
+            "note": "text: Preview",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Description",
+            "id": "labelDescription",
+            "note": "text: Description",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/47-lost-item-report.svg"
+    ],
+    "sketch": "sketches/47-lost-item-report.svg"
+  },
+  {
+    "number": 48,
+    "group": 16,
+    "anchor": false,
+    "title": "Field Observation",
+    "purpose": "Attach a picture to a field note",
+    "elements": [
+      "Photo Select",
+      "Text Input",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getText",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Field note"
+      ],
+      [
+        "photo",
+        "Select image"
+      ],
+      [
+        "input",
+        "Location"
+      ],
+      [
+        "button",
+        "Preview"
+      ],
+      [
+        "label",
+        "Location shown"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Field note",
+            "id": "labelTitle",
+            "note": "text: Field note",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "photo",
+            "type": "Photo Select",
+            "label": "Select image",
+            "id": "photoSelectSelectImage",
+            "note": "select a classroom sample photo",
+            "io": "INPUT",
+            "ioType": "photo"
+          },
+          {
+            "kind": "input",
+            "type": "Text Input",
+            "label": "Location",
+            "id": "textInputLocation",
+            "note": "placeholder: Location",
+            "io": "INPUT",
+            "ioType": "typed text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Preview",
+            "id": "buttonPreview",
+            "note": "text: Preview",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Location shown",
+            "id": "labelLocationShown",
+            "note": "text: Location shown",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/48-field-observation.svg"
+    ],
+    "sketch": "sketches/48-field-observation.svg"
+  },
+  {
+    "number": 49,
+    "group": 17,
+    "anchor": true,
+    "title": "Pattern Poster",
+    "purpose": "Place a canvas and generate a simple drawing",
+    "elements": [
+      "Canvas",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "setActiveCanvas (teacher)",
+      "circle (teacher)",
+      "clearCanvas (teacher)",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Pattern poster"
+      ],
+      [
+        "canvas",
+        "Generated circles"
+      ],
+      [
+        "button",
+        "New pattern"
+      ],
+      [
+        "label",
+        "Each tap redraws"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Pattern poster",
+            "id": "labelTitle",
+            "note": "text: Pattern poster",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "canvas",
+            "type": "Canvas",
+            "label": "Generated circles",
+            "id": "canvasPattern",
+            "note": "blank at start; teacher code draws circles",
+            "io": "OUTPUT",
+            "ioType": "drawing"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "New pattern",
+            "id": "buttonNewPattern",
+            "note": "text: New pattern",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Each tap redraws",
+            "id": "labelPattern",
+            "note": "text: Each tap redraws",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/49-pattern-poster.svg"
+    ],
+    "sketch": "sketches/49-pattern-poster.svg"
+  },
+  {
+    "number": 50,
+    "group": 17,
+    "anchor": false,
+    "title": "Random Flag",
+    "purpose": "Draw a color pattern on a canvas",
+    "elements": [
+      "Canvas",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "setActiveCanvas (teacher)",
+      "rect (teacher)",
+      "onEvent"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Flag maker"
+      ],
+      [
+        "canvas",
+        "Color bands"
+      ],
+      [
+        "button",
+        "New flag"
+      ],
+      [
+        "label",
+        "Generated design"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Flag maker",
+            "id": "labelTitle",
+            "note": "text: Flag maker",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "canvas",
+            "type": "Canvas",
+            "label": "Color bands",
+            "id": "canvasColorBands",
+            "note": "teacher supplies drawing code",
+            "io": "OUTPUT",
+            "ioType": "drawing"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "New flag",
+            "id": "buttonNewFlag",
+            "note": "text: New flag",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Generated design",
+            "id": "labelGeneratedDesign",
+            "note": "text: Generated design",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/50-random-flag.svg"
+    ],
+    "sketch": "sketches/50-random-flag.svg"
+  },
+  {
+    "number": 51,
+    "group": 17,
+    "anchor": false,
+    "title": "Poster Stamp",
+    "purpose": "Stamp shapes inside a poster",
+    "elements": [
+      "Canvas",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "setActiveCanvas (teacher)",
+      "circle (teacher)",
+      "onEvent"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Poster stamp"
+      ],
+      [
+        "canvas",
+        "Circles and dots"
+      ],
+      [
+        "button",
+        "Stamp again"
+      ],
+      [
+        "label",
+        "Generated mark"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Poster stamp",
+            "id": "labelTitle",
+            "note": "text: Poster stamp",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "canvas",
+            "type": "Canvas",
+            "label": "Circles and dots",
+            "id": "canvasCirclesAndDots",
+            "note": "teacher supplies drawing code",
+            "io": "OUTPUT",
+            "ioType": "drawing"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Stamp again",
+            "id": "buttonStampAgain",
+            "note": "text: Stamp again",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Generated mark",
+            "id": "labelGeneratedMark",
+            "note": "text: Generated mark",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/51-poster-stamp.svg"
+    ],
+    "sketch": "sketches/51-poster-stamp.svg"
+  },
+  {
+    "number": 52,
+    "group": 18,
+    "anchor": true,
+    "title": "Focus Break Coach",
+    "purpose": "Assessment 2: use five UI elements for a personal recommendation",
+    "elements": [
+      "Radio Button",
+      "Slider",
+      "Text Area",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getChecked",
+      "getProperty",
+      "getText",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Focus break coach"
+      ],
+      [
+        "radio",
+        "Quiet"
+      ],
+      [
+        "radio",
+        "Active"
+      ],
+      [
+        "slider",
+        "1 \u2014 15 minutes"
+      ],
+      [
+        "textarea",
+        "What do you need?"
+      ],
+      [
+        "button",
+        "Make suggestion"
+      ],
+      [
+        "label",
+        "Try a 5-min..."
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Focus break coach",
+            "id": "labelTitle",
+            "note": "text: Focus break coach",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "radio",
+            "type": "Radio Button",
+            "label": "Quiet",
+            "id": "radioButtonQuiet",
+            "note": "group-id: breakMode; checked: false",
+            "io": "INPUT",
+            "ioType": "one choice"
+          },
+          {
+            "kind": "radio",
+            "type": "Radio Button",
+            "label": "Active",
+            "id": "radioButtonActive",
+            "note": "group-id: breakMode; checked: true",
+            "io": "INPUT",
+            "ioType": "one choice"
+          },
+          {
+            "kind": "slider",
+            "type": "Slider",
+            "label": "1 \u2014 15 minutes",
+            "id": "sliderBreak",
+            "note": "min: 1; max: 15; step: 1; value: 5",
+            "io": "INPUT",
+            "ioType": "number"
+          },
+          {
+            "kind": "textarea",
+            "type": "Text Area",
+            "label": "What do you need?",
+            "id": "textAreaNeed",
+            "note": "editable: true; multiple lines",
+            "io": "INPUT",
+            "ioType": "long text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Make suggestion",
+            "id": "buttonSuggest",
+            "note": "text: Make suggestion",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Try a 5-min...",
+            "id": "labelSuggestion",
+            "note": "text: Try a 5-min...",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/52-focus-break-coach.svg"
+    ],
+    "sketch": "sketches/52-focus-break-coach.svg"
+  },
+  {
+    "number": 53,
+    "group": 18,
+    "anchor": false,
+    "title": "Errand Plan",
+    "purpose": "Combine a choice, duration and note",
+    "elements": [
+      "Radio Button",
+      "Slider",
+      "Text Area",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getChecked",
+      "getProperty",
+      "getText",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Errand plan"
+      ],
+      [
+        "radio",
+        "Walk"
+      ],
+      [
+        "radio",
+        "Ride"
+      ],
+      [
+        "slider",
+        "Time available"
+      ],
+      [
+        "textarea",
+        "One errand"
+      ],
+      [
+        "button",
+        "Plan"
+      ],
+      [
+        "label",
+        "Plan appears"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Errand plan",
+            "id": "labelTitle",
+            "note": "text: Errand plan",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "radio",
+            "type": "Radio Button",
+            "label": "Walk",
+            "id": "radioButtonWalk",
+            "note": "group-id: routeChoice; checked: true",
+            "io": "INPUT",
+            "ioType": "one choice"
+          },
+          {
+            "kind": "radio",
+            "type": "Radio Button",
+            "label": "Ride",
+            "id": "radioButtonRide",
+            "note": "group-id: routeChoice; checked: false",
+            "io": "INPUT",
+            "ioType": "one choice"
+          },
+          {
+            "kind": "slider",
+            "type": "Slider",
+            "label": "Time available",
+            "id": "sliderTimeAvailable",
+            "note": "range preview: Time available",
+            "io": "INPUT",
+            "ioType": "number"
+          },
+          {
+            "kind": "textarea",
+            "type": "Text Area",
+            "label": "One errand",
+            "id": "textAreaOneErrand",
+            "note": "placeholder: One errand; editable",
+            "io": "INPUT",
+            "ioType": "long text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Plan",
+            "id": "buttonPlan",
+            "note": "text: Plan",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Plan appears",
+            "id": "labelPlanAppears",
+            "note": "text: Plan appears",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/53-errand-plan.svg"
+    ],
+    "sketch": "sketches/53-errand-plan.svg"
+  },
+  {
+    "number": 54,
+    "group": 18,
+    "anchor": false,
+    "title": "Wellness Pause",
+    "purpose": "Choose a gentle pause idea",
+    "elements": [
+      "Radio Button",
+      "Slider",
+      "Text Area",
+      "Button",
+      "Label"
+    ],
+    "blocks": [
+      "getChecked",
+      "getProperty",
+      "getText",
+      "onEvent",
+      "setText"
+    ],
+    "widgets": [
+      [
+        "label",
+        "Wellness pause"
+      ],
+      [
+        "radio",
+        "Quiet"
+      ],
+      [
+        "radio",
+        "Move"
+      ],
+      [
+        "slider",
+        "Minutes"
+      ],
+      [
+        "textarea",
+        "What helps?"
+      ],
+      [
+        "button",
+        "Suggest"
+      ],
+      [
+        "label",
+        "Try a pause"
+      ]
+    ],
+    "screens": [
+      {
+        "id": "screenMain",
+        "name": "Main screen",
+        "elements": [
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Wellness pause",
+            "id": "labelTitle",
+            "note": "text: Wellness pause",
+            "io": "OUTPUT",
+            "ioType": "text"
+          },
+          {
+            "kind": "radio",
+            "type": "Radio Button",
+            "label": "Quiet",
+            "id": "radioButtonQuiet",
+            "note": "group-id: breakMode; checked: false",
+            "io": "INPUT",
+            "ioType": "one choice"
+          },
+          {
+            "kind": "radio",
+            "type": "Radio Button",
+            "label": "Move",
+            "id": "radioButtonMove",
+            "note": "group-id: breakMode; checked: true",
+            "io": "INPUT",
+            "ioType": "one choice"
+          },
+          {
+            "kind": "slider",
+            "type": "Slider",
+            "label": "Minutes",
+            "id": "sliderMinutes",
+            "note": "min: 0; max: 60; step: 5; value: 20",
+            "io": "INPUT",
+            "ioType": "number"
+          },
+          {
+            "kind": "textarea",
+            "type": "Text Area",
+            "label": "What helps?",
+            "id": "textAreaWhatHelps",
+            "note": "placeholder: What helps?; editable",
+            "io": "INPUT",
+            "ioType": "long text"
+          },
+          {
+            "kind": "button",
+            "type": "Button",
+            "label": "Suggest",
+            "id": "buttonSuggest",
+            "note": "text: Suggest",
+            "io": "INPUT",
+            "ioType": "tap"
+          },
+          {
+            "kind": "label",
+            "type": "Label",
+            "label": "Try a pause",
+            "id": "labelTryAPause",
+            "note": "text: Try a pause",
+            "io": "OUTPUT",
+            "ioType": "text"
+          }
+        ],
+        "extras": []
+      }
+    ],
+    "sketches": [
+      "sketches/54-wellness-pause.svg"
+    ],
+    "sketch": "sketches/54-wellness-pause.svg"
+  }
+]

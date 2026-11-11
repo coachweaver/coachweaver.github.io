@@ -1,0 +1,9 @@
+WEDNESDAY NOV 11 — OPEN FIRST
+
+1. Open Teacher-Run-Sheet.html.
+2. Print one Student-App-Lab-Passport.pdf per student (US Letter, 100%, one page).
+3. Project or upload the three SVG files in UI images/ to your shared drive.
+4. Students make three separate blank App Lab projects. No starter remix is needed.
+5. Mission 3 is the minor grade. Check it live, circle attempt and score on the passport, then collect the sheet.
+
+Teacher code/ holds complete reference statements if you need to project a pattern or diagnose a class-wide issue. All element IDs use type-first camelCase.
