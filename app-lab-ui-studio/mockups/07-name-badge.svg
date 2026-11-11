@@ -56,21 +56,21 @@
 <text x="1255" y="631" font-family="Geist" font-size="26" font-weight="600" fill="#697887">labelBadge</text>
 <text x="1510" y="601" font-family="Geist" font-size="22" font-weight="600" fill="#17222e">Value: Your badge appears here</text>
 <text x="1510" y="632" font-family="Geist" font-size="19" font-weight="400" fill="#53606d">Output: typed name</text>
-<text x="1230" y="710" font-family="Fraunces" font-size="34" font-weight="700" fill="#17222e">Program statements</text>
-<rect x="1230" y="737" width="642" height="76" rx="0" fill="#ffffff" stroke="#d4dce3" stroke-width="1"/>
-<rect x="1230" y="737" width="7" height="76" rx="0" fill="#446b99" stroke="none" stroke-width="1"/>
-<rect x="1230" y="820" width="642" height="85" rx="0" fill="#ffffff" stroke="#d4dce3" stroke-width="1"/>
-<rect x="1230" y="820" width="7" height="85" rx="0" fill="#446b99" stroke="none" stroke-width="1"/>
-<rect x="1230" y="912" width="642" height="73" rx="0" fill="#ffffff" stroke="#d4dce3" stroke-width="1"/>
-<rect x="1230" y="912" width="7" height="73" rx="0" fill="#446b99" stroke="none" stroke-width="1"/>
-<text x="1255" y="771" font-family="Geist" font-size="25" font-weight="600" fill="#17222e">onEvent</text>
-<text x="1255" y="801" font-family="Geist" font-size="21" font-weight="400" fill="#17222e">ID: buttonMake</text>
-<text x="1580" y="801" font-family="Geist" font-size="21" font-weight="400" fill="#17222e">Event: click</text>
-<text x="1255" y="855" font-family="Geist" font-size="25" font-weight="600" fill="#17222e">setText</text>
-<text x="1850" y="855" font-family="Geist" font-size="17" font-weight="400" fill="#53606d" text-anchor="end">nested inside onEvent</text>
-<text x="1255" y="887" font-family="Geist" font-size="21" font-weight="400" fill="#17222e">ID: labelBadge</text>
-<text x="1510" y="887" font-family="Geist" font-size="20" font-weight="400" fill="#17222e">Value: getText result</text>
-<text x="1255" y="946" font-family="Geist" font-size="25" font-weight="600" fill="#17222e">getText</text>
-<text x="1850" y="946" font-family="Geist" font-size="17" font-weight="400" fill="#53606d" text-anchor="end">nested inside setText</text>
-<text x="1255" y="976" font-family="Geist" font-size="21" font-weight="400" fill="#17222e">ID: textInputName</text>
+<text x="1230" y="690" font-family="Fraunces" font-size="34" font-weight="700" fill="#17222e">Program statements</text>
+<rect x="1230" y="715" width="642" height="80" rx="0" fill="#ffffff" stroke="#d4dce3" stroke-width="1"/>
+<rect x="1230" y="715" width="7" height="80" rx="0" fill="#446b99" stroke="none" stroke-width="1"/>
+<rect x="1230" y="803" width="642" height="84" rx="0" fill="#ffffff" stroke="#d4dce3" stroke-width="1"/>
+<rect x="1230" y="803" width="7" height="84" rx="0" fill="#446b99" stroke="none" stroke-width="1"/>
+<rect x="1230" y="895" width="642" height="88" rx="0" fill="#ffffff" stroke="#d4dce3" stroke-width="1"/>
+<rect x="1230" y="895" width="7" height="88" rx="0" fill="#446b99" stroke="none" stroke-width="1"/>
+<text x="1255" y="750" font-family="Geist" font-size="25" font-weight="600" fill="#17222e">onEvent</text>
+<text x="1255" y="781" font-family="Geist" font-size="21" font-weight="400" fill="#17222e">ID: buttonMake</text>
+<text x="1580" y="781" font-family="Geist" font-size="21" font-weight="400" fill="#17222e">Event: click</text>
+<text x="1255" y="839" font-family="Geist" font-size="25" font-weight="600" fill="#17222e">setText</text>
+<text x="1850" y="839" font-family="Geist" font-size="17" font-weight="400" fill="#53606d" text-anchor="end">nested inside onEvent</text>
+<text x="1255" y="872" font-family="Geist" font-size="21" font-weight="400" fill="#17222e">ID: labelBadge</text>
+<text x="1510" y="872" font-family="Geist" font-size="20" font-weight="400" fill="#17222e">Value: getText result</text>
+<text x="1255" y="932" font-family="Geist" font-size="25" font-weight="600" fill="#17222e">getText</text>
+<text x="1850" y="932" font-family="Geist" font-size="17" font-weight="400" fill="#53606d" text-anchor="end">nested inside setText</text>
+<text x="1255" y="966" font-family="Geist" font-size="21" font-weight="400" fill="#17222e">ID: textInputName</text>
 </svg>
