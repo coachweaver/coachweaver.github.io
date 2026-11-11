@@ -46,16 +46,16 @@
 <text x="1255" y="601" font-family="Geist" font-size="27" font-weight="600" fill="#697887">labelMessage</text>
 <text x="1510" y="569" font-family="Geist" font-size="22" font-weight="600" fill="#17222e">Value: Ready when you are</text>
 <text x="1510" y="603" font-family="Geist" font-size="20" font-weight="400" fill="#53606d">Output: text changes</text>
-<text x="1230" y="710" font-family="Fraunces" font-size="34" font-weight="700" fill="#17222e">Program statements</text>
-<rect x="1230" y="737" width="642" height="104" rx="0" fill="#ffffff" stroke="#d4dce3" stroke-width="1"/>
-<rect x="1230" y="737" width="7" height="104" rx="0" fill="#446b99" stroke="none" stroke-width="1"/>
-<rect x="1230" y="849" width="642" height="136" rx="0" fill="#ffffff" stroke="#d4dce3" stroke-width="1"/>
-<rect x="1230" y="849" width="7" height="136" rx="0" fill="#446b99" stroke="none" stroke-width="1"/>
-<text x="1256" y="783" font-family="Geist" font-size="28" font-weight="600" fill="#17222e">onEvent</text>
-<text x="1256" y="819" font-family="Geist" font-size="22" font-weight="400" fill="#17222e">ID: buttonAction</text>
-<text x="1581" y="819" font-family="Geist" font-size="22" font-weight="400" fill="#17222e">Event: click</text>
-<text x="1256" y="894" font-family="Geist" font-size="28" font-weight="600" fill="#17222e">setText</text>
-<text x="1850" y="894" font-family="Geist" font-size="18" font-weight="400" fill="#53606d" text-anchor="end">nested inside onEvent</text>
-<text x="1256" y="933" font-family="Geist" font-size="22" font-weight="400" fill="#17222e">ID: labelMessage</text>
-<text x="1256" y="969" font-family="Geist" font-size="22" font-weight="400" fill="#17222e">Value: Help is on the way</text>
+<text x="1230" y="690" font-family="Fraunces" font-size="34" font-weight="700" fill="#17222e">Program statements</text>
+<rect x="1230" y="715" width="642" height="104" rx="0" fill="#ffffff" stroke="#d4dce3" stroke-width="1"/>
+<rect x="1230" y="715" width="7" height="104" rx="0" fill="#446b99" stroke="none" stroke-width="1"/>
+<rect x="1230" y="827" width="642" height="146" rx="0" fill="#ffffff" stroke="#d4dce3" stroke-width="1"/>
+<rect x="1230" y="827" width="7" height="146" rx="0" fill="#446b99" stroke="none" stroke-width="1"/>
+<text x="1256" y="760" font-family="Geist" font-size="28" font-weight="600" fill="#17222e">onEvent</text>
+<text x="1256" y="796" font-family="Geist" font-size="22" font-weight="400" fill="#17222e">ID: buttonAction</text>
+<text x="1581" y="796" font-family="Geist" font-size="22" font-weight="400" fill="#17222e">Event: click</text>
+<text x="1256" y="872" font-family="Geist" font-size="28" font-weight="600" fill="#17222e">setText</text>
+<text x="1850" y="872" font-family="Geist" font-size="18" font-weight="400" fill="#53606d" text-anchor="end">nested inside onEvent</text>
+<text x="1256" y="912" font-family="Geist" font-size="22" font-weight="400" fill="#17222e">ID: labelMessage</text>
+<text x="1256" y="953" font-family="Geist" font-size="22" font-weight="400" fill="#17222e">Value: Help is on the way</text>
 </svg>
