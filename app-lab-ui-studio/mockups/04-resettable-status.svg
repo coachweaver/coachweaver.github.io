@@ -57,23 +57,23 @@
 <text x="1255" y="631" font-family="Geist" font-size="26" font-weight="600" fill="#697887">labelStatus</text>
 <text x="1510" y="601" font-family="Geist" font-size="22" font-weight="600" fill="#17222e">Value: Not started</text>
 <text x="1510" y="632" font-family="Geist" font-size="19" font-weight="400" fill="#53606d">Output: text changes</text>
-<text x="1230" y="710" font-family="Fraunces" font-size="34" font-weight="700" fill="#17222e">Program statements</text>
-<rect x="1230" y="737" width="642" height="118" rx="0" fill="#ffffff" stroke="#d4dce3" stroke-width="1"/>
-<rect x="1230" y="737" width="7" height="118" rx="0" fill="#446b99" stroke="none" stroke-width="1"/>
-<text x="1255" y="771" font-family="Geist" font-size="24" font-weight="600" fill="#17222e">onEvent</text>
-<text x="1255" y="799" font-family="Geist" font-size="20" font-weight="400" fill="#17222e">ID: buttonStart</text>
-<text x="1580" y="799" font-family="Geist" font-size="20" font-weight="400" fill="#17222e">Event: click</text>
-<text x="1255" y="828" font-family="Geist" font-size="23" font-weight="600" fill="#17222e">setText</text>
-<text x="1850" y="828" font-family="Geist" font-size="17" font-weight="400" fill="#53606d" text-anchor="end">nested inside onEvent</text>
-<text x="1255" y="849" font-family="Geist" font-size="19" font-weight="400" fill="#17222e">ID: labelStatus</text>
-<text x="1510" y="849" font-family="Geist" font-size="19" font-weight="400" fill="#17222e">Value: In progress</text>
-<rect x="1230" y="861" width="642" height="118" rx="0" fill="#ffffff" stroke="#d4dce3" stroke-width="1"/>
-<rect x="1230" y="861" width="7" height="118" rx="0" fill="#446b99" stroke="none" stroke-width="1"/>
-<text x="1255" y="895" font-family="Geist" font-size="24" font-weight="600" fill="#17222e">onEvent</text>
-<text x="1255" y="923" font-family="Geist" font-size="20" font-weight="400" fill="#17222e">ID: buttonReset</text>
-<text x="1580" y="923" font-family="Geist" font-size="20" font-weight="400" fill="#17222e">Event: click</text>
-<text x="1255" y="952" font-family="Geist" font-size="23" font-weight="600" fill="#17222e">setText</text>
-<text x="1850" y="952" font-family="Geist" font-size="17" font-weight="400" fill="#53606d" text-anchor="end">nested inside onEvent</text>
-<text x="1255" y="973" font-family="Geist" font-size="19" font-weight="400" fill="#17222e">ID: labelStatus</text>
-<text x="1510" y="973" font-family="Geist" font-size="19" font-weight="400" fill="#17222e">Value: Not started</text>
+<text x="1230" y="690" font-family="Fraunces" font-size="34" font-weight="700" fill="#17222e">Program statements</text>
+<rect x="1230" y="715" width="642" height="145" rx="0" fill="#ffffff" stroke="#d4dce3" stroke-width="1"/>
+<rect x="1230" y="715" width="7" height="145" rx="0" fill="#446b99" stroke="none" stroke-width="1"/>
+<text x="1255" y="750" font-family="Geist" font-size="25" font-weight="600" fill="#17222e">onEvent</text>
+<text x="1255" y="781" font-family="Geist" font-size="22" font-weight="400" fill="#17222e">ID: buttonStart</text>
+<text x="1580" y="781" font-family="Geist" font-size="22" font-weight="400" fill="#17222e">Event: click</text>
+<text x="1255" y="818" font-family="Geist" font-size="25" font-weight="600" fill="#17222e">setText</text>
+<text x="1850" y="818" font-family="Geist" font-size="18" font-weight="400" fill="#53606d" text-anchor="end">nested inside onEvent</text>
+<text x="1255" y="849" font-family="Geist" font-size="21" font-weight="400" fill="#17222e">ID: labelStatus</text>
+<text x="1510" y="849" font-family="Geist" font-size="21" font-weight="400" fill="#17222e">Value: In progress</text>
+<rect x="1230" y="870" width="642" height="145" rx="0" fill="#ffffff" stroke="#d4dce3" stroke-width="1"/>
+<rect x="1230" y="870" width="7" height="145" rx="0" fill="#446b99" stroke="none" stroke-width="1"/>
+<text x="1255" y="905" font-family="Geist" font-size="25" font-weight="600" fill="#17222e">onEvent</text>
+<text x="1255" y="936" font-family="Geist" font-size="22" font-weight="400" fill="#17222e">ID: buttonReset</text>
+<text x="1580" y="936" font-family="Geist" font-size="22" font-weight="400" fill="#17222e">Event: click</text>
+<text x="1255" y="973" font-family="Geist" font-size="25" font-weight="600" fill="#17222e">setText</text>
+<text x="1850" y="973" font-family="Geist" font-size="18" font-weight="400" fill="#53606d" text-anchor="end">nested inside onEvent</text>
+<text x="1255" y="1004" font-family="Geist" font-size="21" font-weight="400" fill="#17222e">ID: labelStatus</text>
+<text x="1510" y="1004" font-family="Geist" font-size="21" font-weight="400" fill="#17222e">Value: Not started</text>
 </svg>
