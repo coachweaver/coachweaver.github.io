@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" style="display:block;width:100vw;height:100vh" role="img" aria-labelledby="title desc">
 <title id="title">01 / Button Beacon — UI mockup</title>
 <desc id="desc">Two App Lab screens at the same 320 by 450 proportions. The Draft shows default Label and Button values. The Configured app shows the target values with element IDs above each control. A large UI Checklist and Program statements panel gives the element types, IDs, values, and click event.</desc>
 <style>
